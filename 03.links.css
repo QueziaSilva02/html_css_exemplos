@@ -1,0 +1,87 @@
+    body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background: linear-gradient(to bottom, rgb(227, 142, 248),rgb(136, 0, 255), rgb(5, 224, 244));
+   /* background: radial-gradient( circle, lch(63.66% 89.27 328.82), rgb(82, 231, 248), rgb(172, 55, 245) );*/
+  /* background: conic-gradient(from 90deg, rgb(95, 95, 250), rgb(0, 221, 255), rgb(59, 0, 209), rgb(76, 8, 249))*/
+}
+h1{
+    text-align:  center;
+    text-transform: uppercase; /* Deixa tudo maiúscula */
+    letter-spacing: 20px; /* Espaça as letras*/
+}
+
+/* Link - Estados e pseuso-classes*/
+
+a {
+    text-decoration: nome; /Remove o sublinhado/
+   body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background: linear-gradient(to bottom, rgb(227, 142, 248),rgb(136, 0, 255), rgb(5, 224, 244));
+   /* background: radial-gradient( circle, lch(63.66% 89.27 328.82), rgb(82, 231, 248), rgb(172, 55, 245) );*/
+  /* background: conic-gradient(from 90deg, rgb(95, 95, 250), rgb(0, 221, 255), rgb(59, 0, 209), rgb(76, 8, 249))*/
+}
+h1{
+    text-align:  center;
+    text-transform: uppercase; /* Deixa tudo maiúscula */
+    letter-spacing: 20px; /* Espaça as letras*/
+}
+
+/* Link - Estados e pseuso-classes*/
+
+a {
+    text-decoration: nome; /*Remove o sublinhado*/
+    transition: all 0.3s ease; /* Animação suave */
+}
+
+/* Estado do link não visitado */
+a:link {
+    color: rgb(255, 238, 0);
+}
+
+
+/* Estado do link após clicar*/
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+A:hover {
+    background: coral;
+}
+}
+
+/* Estado do link não visitado */
+a:link {
+    color: rgb(161, 7, 102);
+}
+
+
+/* Estado do link após clicar*/
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+A:hover {
+    /* color: coral: */
+    background: coral;
+    border-radius: 30px;     
+} 
+
+/* Estilo da classes link */
+.link-topo {
+    position: fixed;
+    bottom: 20px;   
+    right: 20px;
+    background-color: #d862ab;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.link-topo:hover {
+    background-color: #e2a4cc;
+    border-radius: 50%;
+}
